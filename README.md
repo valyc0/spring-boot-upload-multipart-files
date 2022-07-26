@@ -34,3 +34,9 @@ Security:
 ```
 mvn spring-boot:run
 ```
+
+
+# put file:
+curl https://8080-valyc0-springbootbase-67cqsr3went.ws-eu54.gitpod.io/upload -k  -F file=@README.txt
+#list files:
+curl  https://8080-valyc0-springbootbase-67cqsr3went.ws-eu54.gitpod.io/files -k
